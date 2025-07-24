@@ -7,4 +7,4 @@ const todos = [
 const filtered = todos.filter((todo) => todo.id !== 1);
 
 console.log(todos);
-console.log(filtered);
+console.log(filtered); // [ { id: 2, text: 'Pray' }, { id: 3, text: 'Love' } ]
